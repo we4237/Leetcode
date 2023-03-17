@@ -17,9 +17,7 @@ class Solution:
         # ans = []
         # while queue:
         #     tmp = []
-        #
         #     for _ in range(len(queue)):
-        #
         #         node = queue.popleft()
         #         tmp.append(node.val)
         #         if node.left :queue.append(node.left)
@@ -30,9 +28,7 @@ class Solution:
         #         break
         #
         #     tmp = []
-        #
         #     for _ in range(len(queue)):
-        #
         #         node = queue.pop()
         #         tmp.append(node.val)
         #         if node.right:queue.appendleft(node.right)
