@@ -7,7 +7,6 @@ class TreeNode:
 
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
-
         def recur(A,B) -> bool:
             if not B: return True
             if not A or A.val != B.val: return False
